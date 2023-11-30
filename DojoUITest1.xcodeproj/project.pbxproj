@@ -15,6 +15,8 @@
 		92438A7F2B18B48200F98207 /* DojoUITest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92438A7E2B18B48200F98207 /* DojoUITest1Tests.swift */; };
 		92438A892B18B48200F98207 /* DojoUITest1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92438A882B18B48200F98207 /* DojoUITest1UITests.swift */; };
 		92438A8B2B18B48200F98207 /* DojoUITest1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92438A8A2B18B48200F98207 /* DojoUITest1UITestsLaunchTests.swift */; };
+		92438A992B18B5D500F98207 /* ScreenATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92438A982B18B5D500F98207 /* ScreenATableViewCell.swift */; };
+		92438A9C2B18B6D900F98207 /* ScreenBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92438A9B2B18B6D900F98207 /* ScreenBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		92438A842B18B48200F98207 /* DojoUITest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DojoUITest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92438A882B18B48200F98207 /* DojoUITest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DojoUITest1UITests.swift; sourceTree = "<group>"; };
 		92438A8A2B18B48200F98207 /* DojoUITest1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DojoUITest1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92438A982B18B5D500F98207 /* ScreenATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenATableViewCell.swift; sourceTree = "<group>"; };
+		92438A9B2B18B6D900F98207 /* ScreenBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,10 @@
 		92438A662B18B48100F98207 /* DojoUITest1 */ = {
 			isa = PBXGroup;
 			children = (
+				92438A9A2B18B6BF00F98207 /* ScreenB */,
 				92438A672B18B48100F98207 /* AppDelegate.swift */,
 				92438A692B18B48100F98207 /* SceneDelegate.swift */,
-				92438A6B2B18B48100F98207 /* ViewController.swift */,
+				92438A972B18B5B100F98207 /* ScreenA */,
 				92438A702B18B48200F98207 /* Assets.xcassets */,
 				92438A722B18B48200F98207 /* LaunchScreen.storyboard */,
 				92438A752B18B48200F98207 /* Info.plist */,
@@ -122,6 +127,23 @@
 				92438A8A2B18B48200F98207 /* DojoUITest1UITestsLaunchTests.swift */,
 			);
 			path = DojoUITest1UITests;
+			sourceTree = "<group>";
+		};
+		92438A972B18B5B100F98207 /* ScreenA */ = {
+			isa = PBXGroup;
+			children = (
+				92438A6B2B18B48100F98207 /* ViewController.swift */,
+				92438A982B18B5D500F98207 /* ScreenATableViewCell.swift */,
+			);
+			path = ScreenA;
+			sourceTree = "<group>";
+		};
+		92438A9A2B18B6BF00F98207 /* ScreenB */ = {
+			isa = PBXGroup;
+			children = (
+				92438A9B2B18B6D900F98207 /* ScreenBViewController.swift */,
+			);
+			path = ScreenB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				92438A6C2B18B48100F98207 /* ViewController.swift in Sources */,
+				92438A992B18B5D500F98207 /* ScreenATableViewCell.swift in Sources */,
 				92438A682B18B48100F98207 /* AppDelegate.swift in Sources */,
 				92438A6A2B18B48100F98207 /* SceneDelegate.swift in Sources */,
+				92438A9C2B18B6D900F98207 /* ScreenBViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
